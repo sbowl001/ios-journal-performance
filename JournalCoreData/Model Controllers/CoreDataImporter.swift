@@ -58,6 +58,7 @@ class CoreDataImporter {
 //            }
 //            completion(nil)
 //            print("sync ended" )
+            print("sync ended")
             completion(nil)
         }
     }
