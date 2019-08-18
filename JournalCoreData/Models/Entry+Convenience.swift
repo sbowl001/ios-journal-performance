@@ -18,7 +18,7 @@ extension Entry {
                      identifier: String = UUID().uuidString,
                      context: NSManagedObjectContext = CoreDataStack.shared.mainContext) {
         
-        self.init(context: context)
+        self.init(context: context)  //problems here 
         
         self.title = title
         self.bodyText = bodyText
